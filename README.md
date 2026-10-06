@@ -121,17 +121,20 @@ Para adaptar o template a outro estúdio:
 
 ---
 
-## Deploy na Vercel
+## Deploy
 
-O projeto está configurado para deploy direto na Vercel:
+Build de produção gera pasta `dist/` pronta para qualquer hosting estático:
 
-1. Conecte o repositório GitHub na Vercel
-2. Framework preset: **Vite**
-3. Build command: `npm run build`
-4. Output directory: `dist`
-5. Install command: `npm install`
+```bash
+npm run build
+# output: dist/
+```
 
-**Variáveis de ambiente** (se necessárias): configure no painel da Vercel.
+Configure no provedor de sua escolha:
+- **Framework:** Vite
+- **Build command:** `npm run build`
+- **Output directory:** `dist`
+- **Install command:** `npm install`
 
 ---
 
