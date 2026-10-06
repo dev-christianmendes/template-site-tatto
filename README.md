@@ -153,17 +153,6 @@ chore: tarefas de build, dependências, etc
 
 ---
 
-## Próximos Passos
-
-- [ ] Conectar formulário a API/serviço de booking real
-- [ ] Substituir imagens Unsplash por assets próprios (AVIF/WebP + srcset)
-- [ ] Adicionar testes de interação (Vitest + React Testing Library)
-- [ ] Implementar drag/swipe real no carousel de reviews
-- [ ] Adicionar foco e tooltips acessíveis aos hotspots
-- [ ] Pipeline de otimização e validação de imagens
-
----
-
 ## Créditos
 
 Projeto criado como demonstração de **Creative Frontend Development**, combinando direção de arte, React/TypeScript, motion design, UX e arquitetura de componentes.
