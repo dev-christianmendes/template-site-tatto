@@ -4,6 +4,10 @@ Landing page editorial para estúdio de tatuagem **American Traditional / Old Sc
 
 **Stack:** React 18 + TypeScript + Vite + Lucide React
 
+**Demo:** https://template-site-tatto.vercel.app
+
+[![CI](https://github.com/dev-christianmendes/template-site-tatto/actions/workflows/ci.yml/badge.svg)](https://github.com/dev-christianmendes/template-site-tatto/actions/workflows/ci.yml)
+
 ---
 
 ## Preview
@@ -90,7 +94,7 @@ npm run preview
 | `npm run dev` | Inicia servidor de desenvolvimento Vite |
 | `npm run build` | TypeScript check + build de produção |
 | `npm run preview` | Serve build localmente |
-| `npm run lint` | ESLint (quando configurado) |
+| `npm run lint` | ESLint 9 (flat config, typescript-eslint, regras de React Hooks) |
 | `npm run typecheck` | Verificação de tipos TypeScript |
 
 ---
@@ -158,3 +162,7 @@ chore: tarefas de build, dependências, etc
 Projeto criado como demonstração de **Creative Frontend Development**, combinando direção de arte, React/TypeScript, motion design, UX e arquitetura de componentes.
 
 **Desenvolvido por:** Christian Mendes
+
+## Licença
+
+[MIT](LICENSE)
